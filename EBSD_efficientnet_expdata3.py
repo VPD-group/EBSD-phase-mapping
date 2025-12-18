@@ -1,3 +1,4 @@
+# Code modified from https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
 # License: BSD
 # Author: Sasank Chilamkurthy
 import os
