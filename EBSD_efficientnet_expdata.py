@@ -1,6 +1,5 @@
 # Code modified from https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
-# License: BSD
-# Author: Sasank Chilamkurthy
+
 import os
 os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
 import torch
