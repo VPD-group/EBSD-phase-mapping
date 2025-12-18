@@ -53,8 +53,6 @@ test_transform= transforms.Compose([
     ])
 
 
-#class_names = ['221','223','225','227','229']
-
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 def visualize_model_predictions(model,img_path):
