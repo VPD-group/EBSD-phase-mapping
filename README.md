@@ -27,8 +27,8 @@ In this project, we explore deep learning–based methods to:
 
 ## Code description
 
-- EBSD_phaseclassification.ipynb: sorts data into train, validation, and test splits; trains contrastive learning model; visualizes results from contrastive learning and cross entropy learning
-- EBSD_efficientnet_expdata.py: trains model using cross entropy loss. Use --validation flag to evaluate on validation data, and remove it to train on both the training and validation data and evaluate on test data.
+- `EBSD_phaseclassification.ipynb` sorts data into train, validation, and test splits; trains contrastive learning model; visualizes results from contrastive learning and cross entropy learning
+- `EBSD_efficientnet_expdata.py` trains model using cross entropy loss. Use --validation flag to evaluate on validation data, and remove it to train on both the training and validation data and evaluate on test data.
 
 ## Results:
 
