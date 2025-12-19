@@ -8,7 +8,7 @@ The project focuses on comparing **standard supervised CNN training (cross-entro
 
 ## Project Overview
 
-Electron Backscatter Diffraction (EBSD) is widely used for crystallographic phase identification, but conventional indexing approaches can struggle with noisy patterns, complex phase mixtures, or limited training data. Some past work has shown the potential of using deep learning to obtain composition information from EBSD using cross entropy learning [2]. Next, it is desired to test these methods on different Ni-based alloys, which have relevant high temperature and corrosion resistance applications. Additionally, contrastive leanring is an alternative training method that may improve accuracy. 
+Electron Backscatter Diffraction (EBSD) is widely used for crystallographic phase identification, but conventional indexing approaches can struggle with noisy patterns, complex phase mixtures, or limited training data. Some past work has shown the potential of using deep learning to obtain composition information from EBSD using cross entropy learning [2]. Next, it is desired to test these methods on different Ni-based alloys, which have relevant high temperature and corrosion resistance applications. Additionally, contrastive learning is an alternative training method that may improve accuracy. 
 
 In this project, we explore deep learning–based methods to:
 - Classify EBSD Kikuchi patterns into crystallographic phases
@@ -32,7 +32,7 @@ In this project, we explore deep learning–based methods to:
 
 ## Results:
 
-Both cross entropy and contrastive leanring achieved similar test accuracies. A confusion matrix of predictions shows that Ni and Ni3Fe were often misclassified, which is likely due to the low difference in atomic number between Fe (26) and Ni (28). This suggests a physical limit to the composition information obtainable from EBSD patterns. However, the overall performance for the three phases still suggest potential for improved phase mapping Ni-based alloys over conventional techniques that only analyze band geometries.
+Both cross entropy and contrastive learning achieved similar test accuracies. A confusion matrix of predictions shows that Ni and Ni3Fe were often misclassified, which is likely due to the low difference in atomic number between Fe (26) and Ni (28). This suggests a physical limit to the composition information obtainable from EBSD patterns. However, the overall performance for the three phases still suggest potential for improved phase mapping Ni-based alloys over conventional techniques that only analyze band geometries.
 
 <img width="512" height="412" alt="unnamed (18)" src="https://github.com/user-attachments/assets/1b5d7311-941a-4118-a16a-4305474b9af1" />
 
